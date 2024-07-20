@@ -8,7 +8,7 @@
 
 int main()
 {
-    std::fstream bmp{ "C:\\Users\\doria\\Downloads\\pinguinos.bmp", std::ios::in | std::ios::out | std::ios::binary };
+    std::fstream bmp{ "./img/pinguinos.bmp", std::ios::in | std::ios::out | std::ios::binary };
 
     // std::array<int, 2> dims{ getImageDimensions(&bmp) };
 
